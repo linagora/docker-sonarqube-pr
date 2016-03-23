@@ -1,18 +1,18 @@
 # docker-sonarqube-pr
 Dockerized SonarQube web server https://registry.hub.docker.com/u/harbur/sonarqube/
 
-The main goal of this repo is to bring a dockerized SonarQube with pull request plugins (GitHub & Stash).
+The main goal of this repository is to bring a dockerized SonarQube with pull request plugins (GitHub & Stash).
 
 
 # Usage
 Build the image
 ```
-$ docker build -t sonarqube .
+$ docker build -t linagora/sonarqube-pr .
 ```
 
 Run the container
 ```
-$ docker run --name sonarqube -v $PWD/qualityprofile:/qualityprofile -p 9000:9000 -p 9002:9002 --env-file ./env.file sonarqube
+$ docker run --name sonarqube -v $PWD/qualityprofile:/qualityprofile -p 9000:9000 -p 9002:9002 --env-file ./env.file linagora/sonarqube-pr
 ```
 
 # Configuration
