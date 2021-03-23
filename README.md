@@ -1,3 +1,6 @@
+![Archived](https://img.shields.io/badge/Current_Status-archived-blue?style=flat)
+
+
 # docker-sonarqube-pr
 Dockerized SonarQube web server https://registry.hub.docker.com/u/harbur/sonarqube/
 
